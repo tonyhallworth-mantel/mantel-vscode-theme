@@ -1,0 +1,42 @@
+{
+  "name": "mantel-theme",
+  "displayName": "Mantel",
+  "description": "VS Code colour theme based on the Mantel Group brand guidelines (V1.1). Ships Deep Ocean dark and Cloud light variants.",
+  "version": "1.0.0",
+  "publisher": "mantel",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tonyhallworth-mantel/mantel-vscode-theme.git"
+  },
+  "engines": {
+    "vscode": "^1.70.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "mantel",
+    "theme",
+    "dark",
+    "light",
+    "brand"
+  ],
+  "galleryBanner": {
+    "color": "#002A41",
+    "theme": "dark"
+  },
+  "contributes": {
+    "themes": [
+      {
+        "label": "Mantel Deep Ocean (Dark)",
+        "uiTheme": "vs-dark",
+        "path": "./themes/mantel-deep-ocean-color-theme.json"
+      },
+      {
+        "label": "Mantel Cloud (Light)",
+        "uiTheme": "vs",
+        "path": "./themes/mantel-cloud-color-theme.json"
+      }
+    ]
+  }
+}
