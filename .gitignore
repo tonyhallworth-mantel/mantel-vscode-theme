@@ -1,0 +1,8 @@
+# Build artefacts (attach packaged .vsix files to GitHub releases instead)
+*.vsix
+
+# Dependencies
+node_modules/
+
+# OS files
+.DS_Store
