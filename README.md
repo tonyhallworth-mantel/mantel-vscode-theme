@@ -19,6 +19,19 @@ Pure black is never used — the darkest surfaces are a slightly deepened Deep O
 
 ## Install
 
+### From the GitHub release
+
+Download the packaged extension from the [v1.0.0 release](https://github.com/tonyhallworth-mantel/mantel-vscode-theme/releases/tag/v1.0.0) and install it:
+
+```bash
+curl -fsSLO https://github.com/tonyhallworth-mantel/mantel-vscode-theme/releases/download/v1.0.0/mantel-theme-1.0.0.vsix
+code --install-extension mantel-theme-1.0.0.vsix
+```
+
+Or download `mantel-theme-1.0.0.vsix` from the release page, then in the Extensions view choose **...** → **Install from VSIX...** and pick the file.
+
+Then open the Command Palette (`Cmd/Ctrl+Shift+P`) → **Preferences: Color Theme** → pick **Mantel Deep Ocean (Dark)** or **Mantel Cloud (Light)**.
+
 ### From source (local)
 
 1. Copy this folder into your VS Code extensions directory:
